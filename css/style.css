@@ -248,7 +248,7 @@ footer ul {
   }
 
   #intro {
-    padding: 2rem 0 2rem 0;
+    padding: 2rem .5rem;
   }
 
   #intro h2 {
@@ -271,6 +271,11 @@ footer ul {
 
   #contact p {
     font-size: 1rem;
+  }
+
+  footer {
+    padding-left: .5rem;
+    padding-right: .5rem;
   }
 
   footer h2 {
