@@ -138,7 +138,12 @@ nav {
   padding: 4rem 1rem;
 }
 
-nav h1 a {
+.nav__title {
+	font-size: 24px;
+}
+
+
+nav div a {
   font-family: var(--sans);
 }
 
