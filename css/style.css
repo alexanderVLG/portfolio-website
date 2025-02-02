@@ -138,11 +138,6 @@ nav {
   padding: 4rem 1rem;
 }
 
-.nav__title {
-	font-size: 24px;
-}
-
-
 nav div a {
   font-family: var(--sans);
 }
@@ -177,6 +172,10 @@ nav a {
   color: white;
   text-decoration: none;
   display: block;
+}
+
+.nav__title {
+	font-size: 24px;
 }
 
 nav a:hover,
