@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<title>Разработка сайтов в Уфе</title>
 	<meta name="description" content="Разработка сайтов в Уфе по низкой цене и на высоком уровне - Александр Ковалев" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">
 		(function (m, e, t, r, i, k, a) {
@@ -64,7 +65,7 @@
 		</nav>
 	</header>
 	<section id="intro">
-		<h1 class="visually-hidden">Разработка сайтов</h1>
+		<h1 class="visually-hidden">Разработка сайтов в Уфе</h1>
 		<p class="name">Привет, меня зовут <span>Александр Ковалев.</span>
 		<h2>Я создаю фронтенд для веб-сайтов.</h2>
 		<p>
@@ -80,6 +81,17 @@
 		</ul>
 		<p>В настоящее время в поиске проектной работы.</p>
 	</section>
+	<div class="gradient"></div>
+
+	<div class="splide">
+		<div class="splide__track">
+			<ul class="splide__list">
+				<li class="splide__slide"><img src="./img/sertificate-1.png" width="450" height="622" alt="Сертификат об окончании курса в html academy."></li>
+				<li class="splide__slide"><img src="./img/sertificate-2.png" width="450" height="622" alt="Сертификат об окончании курса в html academy."></li>
+				<li class="splide__slide"><img src="./img/sertificate-3.png" width="450" height="622" alt="Сертификат об окончании курса в html academy."></li>
+			</ul>
+		</div>
+	</div>
 	<div class="gradient"></div>
 	<div class="section-blue">
 		<section id="projects">
@@ -195,7 +207,14 @@
 		</ul>
 		<p><small>&copy; 2025 Александр Ковалев. Все права защищены.</small></p>
 	</footer>
-
+	<!-- Подключаем JS Splide -->
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+	<script>
+		// Инициализация слайдера
+		document.addEventListener('DOMContentLoaded', function () {
+			new Splide('.splide').mount();
+		});
+	</script>
 </body>
 
 </html>
