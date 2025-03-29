@@ -15,7 +15,6 @@
 	<link rel="stylesheet" href="css/style.css">
 	<title>Разработка сайтов в Уфе</title>
 	<meta name="description" content="Разработка сайтов в Уфе по низкой цене и на высоком уровне - Александр Ковалев" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">
 		(function (m, e, t, r, i, k, a) {
@@ -82,20 +81,22 @@
 		<p>В настоящее время в поиске проектной работы.</p>
 	</section>
 	<div class="gradient"></div>
-
-	<div class="splide">
-		<div class="splide__track">
-			<ul class="splide__list">
-				<li class="splide__slide"><img src="./img/sertificate-1.png" width="450" height="622" alt="Сертификат об окончании курса в html academy."></li>
-				<li class="splide__slide"><img src="./img/sertificate-2.png" width="450" height="622" alt="Сертификат об окончании курса в html academy."></li>
-				<li class="splide__slide"><img src="./img/sertificate-3.png" width="450" height="622" alt="Сертификат об окончании курса в html academy."></li>
-			</ul>
-		</div>
-	</div>
-	<div class="gradient"></div>
 	<div class="section-blue">
 		<section id="projects">
 			<h2>Проекты, которыми я горжусь</h2>
+			<article>
+				<div class="text">
+					<h3>Учебный проект "Кекстаграм"</h3>
+					<p class="blackbox">Сайт был выполнен мной при прохождении курса в HTML Academy <a href="https://alexandervlg.github.io/1313907-kekstagram-2/" target="_blank">Ссылка на
+							сайт</a>
+					</p>
+					<h4>Используемые технологии включают:</h4>
+					<ul>
+						<li>JavaScript</li>
+					</ul>
+				</div>
+				<img src="./img/kekstagram.png" alt="Скриншот сайта Кекстаграм." />
+			</article>
 			<article class="reverse">
 				<div class="text">
 					<h3>Учебный проект "Cat-Energy"</h3>
@@ -207,14 +208,7 @@
 		</ul>
 		<p><small>&copy; 2025 Александр Ковалев. Все права защищены.</small></p>
 	</footer>
-	<!-- Подключаем JS Splide -->
-	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-	<script>
-		// Инициализация слайдера
-		document.addEventListener('DOMContentLoaded', function () {
-			new Splide('.splide').mount();
-		});
-	</script>
+
 </body>
 
 </html>
