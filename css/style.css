@@ -197,6 +197,42 @@ nav [class*="fa-"]:hover {
   background-color: var(--hotmag);
 }
 
+.nav__link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: var(--magenta);
+}
+
+.nav__link--github {
+  mask-image: url("../img/github.svg");
+}
+
+.nav__link--whatsapp {
+	mask-image: url("../img/whatsapp.svg");
+}
+
+.nav__link--phone {
+	mask-image: url("../img/phone.svg");
+}
+
+.nav__link--telegram {
+	mask-image: url("../img/telegram.svg");
+}
+
+.nav__link:hover {
+  background-color: var(--hotmag);
+}
+
+.nav__link:focus-visible {
+	background-color: var(--hotmag);
+}
+
+.nav__link:active {
+	background-color: var(--hotmag);
+	opacity: 0.3;
+}
+
 /* projects section */
 #projects {
   padding: 4rem 1rem;
@@ -353,3 +389,48 @@ footer ul {
       margin-right: auto;
   }
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* footer-social */
+
+.social__link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: var(--magenta);
+}
+
+.social__link--telegram {
+	mask-image: url("../img/telegram.svg");
+}
+
+.social__link--github {
+	mask-image: url("../img/github.svg");
+}
+
+.social__link--whatsapp {
+	mask-image: url("../img/whatsapp.svg");
+}
+
+.social__link:hover {
+    background-color: var(--hotmag);
+  }
+
+.social__link:focus-visible {
+    background-color: var(--hotmag);
+  }
+
+.social__link:active {
+    background-color: var(--hotmag);
+    opacity: 0.3;
+  }
