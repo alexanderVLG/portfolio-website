@@ -205,19 +205,19 @@ nav [class*="fa-"]:hover {
 }
 
 .nav__link--github {
-  mask-image: url("../img/github.svg");
+  mask-image: url("/img/github.svg");
 }
 
 .nav__link--whatsapp {
-	mask-image: url("../img/whatsapp.svg");
+	mask-image: url("/img/whatsapp.svg");
 }
 
 .nav__link--phone {
-	mask-image: url("../img/phone.svg");
+	mask-image: url("/img/phone.svg");
 }
 
 .nav__link--telegram {
-	mask-image: url("../img/telegram.svg");
+	mask-image: url("/img/telegram.svg");
 }
 
 .nav__link:hover {
@@ -411,15 +411,15 @@ footer ul {
 }
 
 .social__link--telegram {
-	mask-image: url("../img/telegram.svg");
+	mask-image: url("/img/telegram.svg");
 }
 
 .social__link--github {
-	mask-image: url("../img/github.svg");
+	mask-image: url("/img/github.svg");
 }
 
 .social__link--whatsapp {
-	mask-image: url("../img/whatsapp.svg");
+	mask-image: url("/img/whatsapp.svg");
 }
 
 .social__link:hover {
