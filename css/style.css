@@ -458,8 +458,6 @@ footer ul {
 .glide__slide-image {
   margin: 2rem 0 4rem 0;
   padding: 1rem;
-  width: fit-content;
-  height: 622px;
   border-left: 1px solid var(--aqua);
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
