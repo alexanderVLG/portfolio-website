@@ -289,7 +289,9 @@ margin: 0;
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
 }
-
+#projects .blackbox--padding {
+	padding: 20px;
+}
 
 /* footer section */
 
