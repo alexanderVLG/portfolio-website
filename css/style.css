@@ -11,6 +11,7 @@
   --font-size: 1.3rem;
   --second-font: Oswald, Arial, sans-serif;
   --main-font: Lato, Arial, sans-serif;
+  --tablet-width: 768px;
 }
 
 @font-face {
@@ -467,8 +468,8 @@ footer ul {
   position: absolute;
   top: 50%;
   z-index: 2;
-  transform: translateY(-50%);
-  padding: 0 10px 5px 10px;
+  transform: translateY(-100%);
+  padding: 0 10px 8px 10px;
   color: white;
   font-size: 30px;
   border-radius: 10px;
