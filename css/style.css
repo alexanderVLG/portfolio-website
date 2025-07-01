@@ -11,6 +11,7 @@
   --font-size: 1.3rem;
   --second-font: Oswald, Arial, sans-serif;
   --main-font: Lato, Arial, sans-serif;
+  --tablet-width: 768px;
 }
 
 @font-face {
@@ -288,7 +289,9 @@ margin: 0;
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
 }
-
+#projects .blackbox--padding {
+	padding: 20px;
+}
 
 /* footer section */
 
@@ -447,3 +450,35 @@ footer ul {
     background-color: var(--hotmag);
     opacity: 0.3;
   }
+
+  /* slider glide.js */
+  .glide__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glide__slide-image {
+  margin: 2rem 0 4rem 0;
+  padding: 1rem;
+  border-left: 1px solid var(--aqua);
+  border-top: 1px solid var(--aqua);
+  border-radius: 25px;
+}
+
+.glide__arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-100%);
+  padding: 0 10px 8px 10px;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--magenta);
+  cursor: pointer;
+
+}
+.glide__arrow--left { left: 20px; }
+.glide__arrow--right { right: 20px; }
